@@ -1,5 +1,5 @@
 import { ServerOptions, Socket } from 'socket.io';
-export declare type TSocketHandler = (socket: Socket) => void;
+declare type TSocketHandler = (socket: Socket) => void;
 export declare class SocketIOServerAdapter {
     private readonly application;
     private readonly httpServer;
@@ -10,3 +10,4 @@ export declare class SocketIOServerAdapter {
     private onListenServer;
     disponse(): void;
 }
+export {};

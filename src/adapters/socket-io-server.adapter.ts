@@ -2,7 +2,7 @@ import { Server, ServerOptions, Socket } from 'socket.io';
 import express, { Express } from 'express';
 import http from 'http';
 
-export type TSocketHandler = (socket: Socket) => void;
+type TSocketHandler = (socket: Socket) => void;
 
 export class SocketIOServerAdapter {
   private readonly application: Express;

@@ -1,6 +1,6 @@
 {
   "name": "@open-deck/tools",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A tools for open deck",
   "main": "dist/index.js",
   "scripts": {

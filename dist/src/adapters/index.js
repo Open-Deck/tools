@@ -16,4 +16,5 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./net-create-socket-connection.adapter"), exports);
 __exportStar(require("./string-decoder.adapter"), exports);
+__exportStar(require("./socket-io-server.adapter"), exports);
 //# sourceMappingURL=index.js.map
